@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Parallax </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nova+Square&family=Orbitron:wght@400;600;700&family=Poppins:wght@200&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="hide">
+  <nav>
+    <img class="logo" src="img/logo.png" alt="">
+    <ul>
+      <li><a href="">Login</a></li>
+      <li><a href="">Sign Up</a></li>
+      <li class="search"><a href="">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a></li>
+      <li class="hamburger"><a href="">
+        <i class="fa-solid fa-bars"></i>
+      </a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main>
+  <!-- <div class="vignette hide"></div> -->
+  <img class="parallax bg-img" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0" data-distance="-200" src="img/background resized.jpg" alt=""> 
+  <img class="parallax fog-7 " data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="0" src="img/fog_7.png" alt="">
+  <img class="parallax mountain-10" data-speedx="0.105" data-speedy="0.205" data-speedz="0" data-rotation="0" data-distance="0" src="img/mountain_10.png" alt="">
+  <img class="parallax fog-6" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="0" src="img/fog_6.png" alt="">
+  <img class="parallax mountain-9" data-speedx="0.125" data-speedy="0.155" data-speedz="0.15" data-rotation="0.02" data-distance="0" src="img/mountain_9.png" alt="">
+  <img class="parallax mountain-8" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.02" data-distance="0" src="img/mountain_8.png" alt="">
+  <img class="parallax fog-5" data-speedx="0.16" data-speedy="0.105" data-speedz="0" data-rotation="0" data-distance="0" src="img/fog_5.png" alt="">
+  <img class="parallax mountain-7" data-speedx="0.1" data-speedy="0.1" data-speedz="0" data-rotation="0.09" data-distance="2000" src="img/mountain_7.png" alt="">
+  <div class="text parallax" data-speedx="0.07" data-speedy="0.07" data-speedz="0" data-rotation="0.11" data-distance="0"> 
+    <!-- <h2>CHINA</h2> -->
+    <h1>AVATAR</h1>
+  </div>
+  <img class="parallax mountain-6" data-speedx="0.065" data-speedy="0.05" data-speedz="0.05" data-rotation="0.12" data-distance="0" src="img/mountain_6.png" alt="">
+  <img class="parallax fog-4" data-speedx="0.135" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="0" src="img/fog_4.png" alt="">
+  <img class="parallax mountain-5" data-speedx="0.061" data-speedy="0.061" data-speedz="0.13" data-rotation="0.1" data-distance="0" src="img/mountain_5.png" alt="">
+  <img class="parallax fog-3" data-speedx="0.11" data-speedy="0.018" data-speedz="0" data-rotation="0" data-distance="0" src="img/fog_3.png" alt="">
+  <img class="parallax mountain-4" data-speedx="0.049" data-speedy="0.024" data-speedz="0" data-rotation="0.14" data-distance="0" src="img/mountain_4.png" alt="">
+  <img class="parallax mountain-3" data-speedx="0.041" data-speedy="0.018" data-speedz="0.32" data-rotation="0.05" data-distance="0" src="img/mountain_3.png" alt="">
+  <img class="parallax fog-2" data-speedx="0.15" data-speedy="0.0115" data-speedz="0" data-rotation="0." data-distance="0" src="img/fog_2.png" alt="">
+  <img class="parallax mountain-2" data-speedx="0.049" data-speedy="0.033" data-speedz="0" data-rotation="0.15" data-distance="0" src="img/mountain_2-resized.png" alt="">
+  <img class="parallax mountain-1" data-speedx="0.047" data-speedy="0.028" data-speedz="0.53" data-rotation="0.2" data-distance="4000" src="img/mountain_1.png" alt="">
+  <img class="black-shadow hide"  src="img/black_shadow.png" alt="">
+  <img class="parallax fog-1" data-speedx="0.12" data-speedy="0.01" data-speedz="0" data-rotation="0" data-distance="0" src="img/fog_1.png" alt="">
+
+</main>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/app.js" defer></script>
+  <script src="https://kit.fontawesome.com/88906a295e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
