@@ -22,7 +22,7 @@ function update(cursorPosition){
 update(0);  
 
 parallax_el.forEach((el)=>{
-    // el.style.transition="0.45s cubic-bezier(.2,.49,.32,.99)";
+    el.style.transition="0.45s cubic-bezier(.2,.49,.32,.99)";
 }); 
 
 window.addEventListener('mousemove',(e)=>{
